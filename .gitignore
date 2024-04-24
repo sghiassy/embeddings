@@ -1,10 +1,12 @@
 # Gist at: https://gist.github.com/sghiassy/e14593a439a03028b98a
-	
+
 ################
 # Python
 ################
 .venv
 .env
+__pycache__
+dump
 
 ##### OSX
 .DS_Store
