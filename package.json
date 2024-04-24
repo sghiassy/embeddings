@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "db": "mongosh \"mongodb+srv://cluster0.gantgf8.mongodb.net/\" --apiVersion 1 --username sghiassy"
+    "control:panel": "open 'https://cloud.mongodb.com/v2/662945d1e348bb32c5102927#/overview?automateSecurity=true'",
+    "db": "mongosh \"mongodb+srv://cluster0.gantgf8.mongodb.net/\" --apiVersion 1 --username sghiassy",
+    "freeze": "pip freeze > requirements.txt"
   },
   "author": "",
   "license": "ISC"
